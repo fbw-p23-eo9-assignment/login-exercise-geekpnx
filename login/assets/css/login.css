@@ -1,0 +1,172 @@
+/* Setup the whole HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* ----- code ends here ------- */
+
+/* Setup Body tag */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    background-image: linear-gradient(45deg, rgb(7, 189, 165), aqua);
+    min-height: 100vh;
+}
+/* -------code end here--------------- */
+
+/* Wrapping Form  */
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* -------code end here--------------- */
+
+/* Style Headline 'Login' */
+
+.wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(0, 153, 158);
+}
+/* ---------------------- */
+
+/* Style Input boxes for Email and Password */
+
+.wrapper .input-box {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(196, 194, 194);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(40, 133, 133);
+}
+/* -------code end here--------------- */
+
+/* Style Show Password */
+
+.showpass {
+    display: flex;
+    font-style: normal;
+    color: rgb(15, 88, 88);
+    margin-bottom: 20px;
+}
+
+.showpass input {
+    accent-color: rgb(0, 153, 158);
+}
+
+.showpass label {
+    padding-left: 5px;
+    font-size: 15px;
+}
+/* --------code end here-------------- */
+
+/* Style Sign In Button */
+
+.signin-btn {
+    text-align: center;
+
+}
+
+.signin-btn button {
+    font-size: 15px;
+    background-color: rgb(0, 153, 158);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+}
+
+.signin-btn button:hover {
+    background-color: rgb(45, 192, 192);
+    color: rgb(69, 116, 116);
+    font-size: 15px;
+
+}
+
+.signin-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    /* background-color: rgb(30, 53, 129);
+    color: black; */
+    opacity: 0.5;
+
+}
+
+/* ------code ends here---------------- */
+
+/* Style Forgot Username Password */
+
+.frgt-usrpss {
+    text-align: center;
+    margin-bottom: 7px;
+    
+}
+
+.frgt-usrpss p {
+    font-size: 15px;
+    color: rgb(15, 88, 88);
+}
+
+.frgt-usrpss a {
+    text-decoration: none;
+    color: rgb(0, 153, 158);
+    font-weight: 550;
+}
+
+.frgt-usrpss a:hover {
+    text-decoration: underline;
+    color: rgb(44, 179, 179);
+    
+}
+/* -------code ends here--------------- */
+
+/* Style Sign Up */
+
+.signup {
+    text-align: center;
+}
+
+.signup p {
+    font-size: 15px;
+    color: rgb(15, 88, 88);
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgb(0, 153, 158);
+    font-weight: 550;
+    
+}
+
+.signup a:hover {
+    text-decoration: underline;
+    color: rgb(44, 179, 179);
+}
+/* ---------------------- */
+
+.signin-disabled {
+    background-color: aquamarine;
+}
